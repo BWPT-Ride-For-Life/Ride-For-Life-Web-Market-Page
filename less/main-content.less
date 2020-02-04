@@ -78,12 +78,18 @@ body {
         
        
     }
+    @media @tablet650{
+        .dis_flx(space-between, center,column);   
+    }
     .about-text{
-       
+        @media @tablet650{
+            width:80%;
+        }
         width:40%;
         padding:7% 5%;
         @media @mobile{
             width:90%;
+         
         }
         h2{
             font-size: 2rem;
@@ -93,9 +99,17 @@ body {
         width:30vw;
         height:45vh;
         padding:2%;
+         @media @tablet850{
+            width:45%;
+           
+        }
         @media @mobile{
             width:90%;
         }
+        @media @tablet650{
+            width:80%;
+        }
+       
     }
    
 }
@@ -140,6 +154,7 @@ strong {
                 border-radius: 100%;
                 width:40%;
                 height:40%;
+               
             }
         }
 }
