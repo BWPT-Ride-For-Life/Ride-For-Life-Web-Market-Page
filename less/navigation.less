@@ -136,18 +136,23 @@ header {
 
     // header image    
     .header-img-info{
+        
+
         background-image: linear-gradient(rgba(20, 10, 0.5, 0.6),
         rgba(50, 70, 30, 0.6)),
-        url("../img/ride-header.jpg");
+        url("../img/ride-header1.jpg");
        
         background-repeat: no-repeat;
-        background-size: cover;
+        
         background-position: center;
         background-color: @header-bg-img;
-        padding: 10% 2%;
+        background-size: cover;
+        padding: 15% 2%;
+        height:45vh;
      
         @media @mobile{
             background-image: none;
+            height:30vh;
           
         }
        
@@ -155,7 +160,7 @@ header {
         .info{
           
             width:45%;
-            padding:7% 0 0 10%;
+            // padding:7% 0 0 10%;
             height:25%;
             color:white;
            
@@ -182,6 +187,8 @@ header {
         }
        
     }
+
+    
     
 }
 
