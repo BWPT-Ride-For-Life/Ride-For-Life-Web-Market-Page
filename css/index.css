@@ -170,7 +170,7 @@ body {
 }
 @media (max-width:650px) {
   .about-section .about-text {
-    width: 80%;
+    width: 90%;
   }
 }
 @media (max-width:500px) {
@@ -183,22 +183,24 @@ body {
 }
 .about-section img {
   width: 30vw;
-  height: 45vh;
-  padding: 2%;
+  height: 35vh;
 }
 @media (max-width:850px) {
   .about-section img {
-    width: 45%;
+    width: 35vw;
+    height: 30vh;
   }
 }
 @media (max-width:500px) {
   .about-section img {
-    width: 90%;
+    width: 45vw;
+    height: 25vh;
   }
 }
 @media (max-width:650px) {
   .about-section img {
-    width: 80%;
+    width: 60vw;
+    height: 45vh;
   }
 }
 @media (max-width:500px) {
