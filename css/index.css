@@ -232,11 +232,24 @@ strong {
   padding: 0 2%;
   background-color: #ebe48559;
 }
+@media (max-width:500px) {
+  .group-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .group-members .member {
   text-align: center;
   width: 35%;
   height: 60%;
   margin: 2%;
+}
+@media (max-width:500px) {
+  .group-members .member {
+    width: 80%;
+  }
 }
 .group-members .member h3 {
   font-size: 1.5rem;

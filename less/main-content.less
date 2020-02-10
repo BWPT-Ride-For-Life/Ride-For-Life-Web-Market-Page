@@ -149,11 +149,18 @@ strong {
         margin:0 2.5%;
         padding:0 2%;
         background-color: @header-bg-img;
+        @media @mobile{
+            .dis_flx(space-between, center,column);   
+           
+        }
         .member {
             text-align: center;
             width:35%;
             height:60%;
             margin:2%;
+            @media @mobile{
+                width:80%;
+            }
             h3{
                 font-size:1.5rem;
                 @media @mobile{
